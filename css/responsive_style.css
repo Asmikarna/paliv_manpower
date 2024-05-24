@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+header .navbar-expand-lg .navbar-nav .dropdown-menu { position: absolute; transition: all 0.3s ease;
+    display: block; visibility: hidden;  opacity: 0;  top: 120%; }
+header li.nav-item.dropdown:hover > .dropdown-menu { visibility: visible; opacity: 1; top: 100%; padding: 0; }
+}
+
+
+@media(min-width: 901px) and (max-width: 1199px){
+
+   .faq .checkout-step-title{font-size: 17px;}
+.banner .carousel-caption{    width: 400px;}
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+   .top-header i{font-size: 30px;}
+   .top-header p{font-size: 12px;}
+     .main-header .bg-light{float: none}
+     .main-header .navbar-expand-lg .navbar-nav .nav-link{    padding: 10px 0 0;border-radius: 0;border: none;}
+   .slick-arrow i{font-size: 22px;padding: 27px 0px 0px;}
+   .banner .carousel-caption{left: 41px;width: 400px;}
+   .banner .carousel-caption h4{font-size: 33px;}
+   .banner .carousel-caption h1{font-size: 35px;}
+     .choose-us .text-wrap p{    font-size: 12px;}
+     .choose-us .text-center .text-wrap h6{font-size: 13px;}
+     .choose-us .text-center .text-wrap h5{font-size: 14px;}
+   .faq h1{font-size: 22px;}   
+   .faq .checkout-step-title{font-size: 10px;}
+   .faq .checkout-step-number{margin-right: 10px;}
+   .testimonial h1{font-size: 40px;}
+   .clients h1{font-size: 40px;}
+   .achievements h1{font-size: 40px;}
+   .services h1{font-size: 40px;}
+   .services .service-wrap .service-title h5{font-size: 14px;}
+   .services .service-wrap p{font-size: 13px;}
+   .services .service-wrap .btn-dark{font-size: 12px;}
+   .contact .text-wrap h2{line-height: 70px;}
+   .footer .newsletters input{max-width: 133px;}
+  }
+
+
+
+@media (max-width: 767px) {
+  .main-header .navbar-expand-lg .navbar-nav .nav-link{    padding: 10px 0 0;border-radius: 0;border: none;}
+	
+  .top-header p{font-size: 10px;text-align: center;}
+  .top-header i{font-size: 25px;    margin: 0 13px;}
+  .top-header .logo img{    margin: 50px 0 0;    width: 135%;}
+  .main-header .bg-light{float: none;}
+  .banner .carousel-caption h1{font-size: 30px;}
+  .banner .carousel-caption h4{font-size: 30px;}
+  .banner .carousel-caption{ left: 19px; width: 370px;}
+  .banner .carousel-caption p{font-size: 21px;}
+ .achievements h1{font-size: 35px;}
+ .achievements .fa-2x{    font-size: 25px;}
+ .achievements .count-title{  font-size: 30px;}
+ .achievements .count-text{font-size: 15px;}
+ .testimonial h1{font-size: 35px;}
+ .faq h1{padding: 20px 0 0;}
+ .clients h1{font-size: 35px;}
+ .become-near .text-wrap h1{    font-size: 38px;}
+ .footer h1{font-size: 17px;}
+ .footer .newsletters input{    max-width: 81px;min-height: 43px;padding-left: 7px;}
+ .footer .newsletters .btn-outline-secondary{font-size: 20px;}
+ .footer .newsletters .icon a i{font-size: 27px;}
+ .footer ul li{font-size: 12px;}
+ .footer .newsletters p{font-size: 12px;}
+}
+
+
+@media (max-width: 575px) {
+  .banner .carousel-caption{    left: 206px;width: 250px;}
+  .banner .carousel-caption h1{    font-size: 26px;}
+  .banner .carousel-caption h4{font-size: 24px;}
+  .banner .carousel-caption p{font-size: 15px;}
+  .top-header .logo img{width: 130px;    margin: 35px 0 0;}
+  .header .row-margin{text-align: center;}
+  .header .icons{text-align: center;}
+    .top-header i{font-size: 22px;    margin: 0 19px;}
+    .top-header p{font-size: 11px;text-align: center;}
+    .main-header .search-container{padding: 0;}
+    .main-header .login{padding: 0;}
+    header .main-header{padding: 0 0 10px;}
+    .about-us{height: auto;}
+    .services .service-wrap p{text-align: center;}
+    .achievements h1{font-size: 33px;}
+    .testimonial h1{font-size: 30px;}
+    .faq h1{padding: 20px 0 0;}
+    .clients h1{font-size: 30px;}
+    .contact{height: auto;}
+
+}
